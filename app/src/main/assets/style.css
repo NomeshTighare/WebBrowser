@@ -1,0 +1,32 @@
+
+/*Extra smaill device (phone, 600px and down)*/
+@media screen {
+    (min-width: 600px)
+.bgcolor{
+    background-color: pink;    
+    height: 600px;
+} 
+
+/*Extra smaill device (phone, 600px and down)*/
+@media only screen and (min-width: 768px){
+.bgcolor{
+    background-color: blue;
+    height: 700px;
+}
+
+/*Extra smaill device (phone, 600px and down)*/
+@media only screen and (min-width: 992px)
+{ 
+    .bgcolor{
+    background-color: peru;
+    height: 992px;
+}
+
+/*Extra smaill device (phone, 600px and down)*/
+@media only screen  and (min-width: 1100px) {
+   .bgcolor{
+       height: 1200px;
+    background-color: green;
+}
+   } 
+    

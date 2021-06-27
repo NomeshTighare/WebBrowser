@@ -1,0 +1,106 @@
+#model{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top:100px;
+    width: 100%;
+    
+}
+.contentbx
+{   
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.formbx{
+    position: relative;
+    background-color: #fff ;
+    margin: auto;
+    width: 60%;
+    border: 2px solid black;
+}
+.formbx h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #041e42;
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #041e42;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.inputbx span
+{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #041e42;
+    font-weight: 300;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.inputbx input{
+    width: 90%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid#607d8b;
+    font-size: 19px ;
+    letter-spacing: 1px;
+    color: #041e42;
+    background: transparent;
+    border-radius: 30px;
+}
+.inputbx button
+{
+    font-family: 'Times New Roman', Times, serif;
+    background: #041e42;
+    color: #fff;
+    outline: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.inputbx button:hover
+{
+    background: #04377e;
+}
+.remember
+{
+    margin-bottom: 10px;
+    color: #041e42;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.inputbx p
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: #041e42;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.inputbx p a{
+    font-family: 'Times New Roman', Times, serif;
+    color: #10458f;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+.close:hover,  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  

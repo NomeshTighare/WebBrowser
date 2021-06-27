@@ -1,0 +1,31 @@
+.slideshow{
+    position: relative;
+    margin: auto;
+
+}
+.slide{
+position: absolute;
+display: none;
+}
+.img{
+    width: 100%;
+    height: 400px;
+    vertical-align: middle;
+}
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    background-color: white;
+    top: 30%;
+    width: auto;
+    margin-top: -25px;
+    padding: 25px;
+
+}
+.next{
+    right: 0;
+}
+.fade{
+    animation: fade;
+    animation-duration: 5s;
+}
